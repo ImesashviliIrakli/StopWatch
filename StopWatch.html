@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- Coding by CodingLab | www.codinglabweb.com-->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- <title> Stopwatch Timer application | CodingLab </title>-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="StopWatch.CSS" />
+  </head>
+  <body>
+    <div class="card container">
+      <div class="card-info">
+        <div class="time">
+          <span class="hour">00</span>
+          <span class="colon">:</span>
+          <span class="minute">00</span>
+          <span class="colon">:</span>
+          <span class="second">00</span>
+          <span class="colon ms-colon">:</span>
+          <span class="millisecond">00</span>
+        </div>
+      </div>
+
+      <div class="buttons row">
+        <button>
+          <span class="button_top col start"> Start </span>
+        </button>
+        <button>
+          <span class="button_top col stop"> Stop </span>
+        </button>
+        <button>
+          <span class="button_top col reset"> Reset </span>
+        </button>
+      </div>
+    </div>
+
+    <script src="StopWatch.js"></script>
+  </body>
+</html>
